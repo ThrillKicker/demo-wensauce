@@ -359,14 +359,14 @@
         // Countdown timer
         function updateCountdown() {
             const now = new Date();
-            const dropDate = new Date('June 30, 2023 12:00:00');
+            const dropDate = new Date('June 05, 2025 12:00:00');
             const diff = dropDate - now;
             
             if (diff <= 0) {
-                document.getElementById('days').textContent = '42';
-                document.getElementById('hours').textContent = '16';
-                document.getElementById('minutes').textContent = '59';
-                document.getElementById('seconds').textContent = '12';
+                document.getElementById('days').textContent = '00';
+                document.getElementById('hours').textContent = '00';
+                document.getElementById('minutes').textContent = '00';
+                document.getElementById('seconds').textContent = '00';
                 return;
             }
             
